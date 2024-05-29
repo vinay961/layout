@@ -266,8 +266,9 @@ button.next {
 }
 .subHeading.sticky {
     position: fixed;
-    top: 0;
+    top: -20px;
     left: 0;
+
     background-color: #1a1a1a;
     /* width: 100%; */
 }
@@ -307,7 +308,7 @@ body {
 }
 
 .prerequisites h1 {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #f0a500;
@@ -365,7 +366,7 @@ body {
     background-color: #2A2E36;
     padding: 10px 20px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
     height: fit-content;
     width: 200px;
     transition: all 0.3s ease-in-out;
