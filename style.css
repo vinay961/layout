@@ -252,6 +252,45 @@ button.next {
     min-width: 250px;
 } */
 
+.subHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 0;
+    margin: 20px 0;
+    list-style: none;
+    position: relative; /* Make it a positioned element */
+    z-index: 1000; /* Ensure it's above other content */
+    width: 100%; /* Occupy full width */
+}
+.subHeading.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    /* width: 100%; */
+}
+
+.subHeading li {
+    margin: 0 15px;
+    border-radius: 5px; 
+}
+
+.subHeading a {
+    text-decoration: none;
+    color: #f0a500; 
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.subHeading a:hover {
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
 body {
     background-color: #000; /* Dark background */
     color: #fff; /* White text for readability */

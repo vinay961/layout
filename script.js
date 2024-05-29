@@ -50,3 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+window.addEventListener('scroll', function() {
+    var subHeading = document.querySelector('.subHeading');
+    var subHeadingOffsetTop = subHeading.offsetTop;
+
+    if (window.pageYOffset > subHeadingOffsetTop) {
+        subHeading.classList.add('sticky');
+    } else {
+        subHeading.classList.remove('sticky');
+    }
+});

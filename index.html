@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI+ Ethical Hacker Certification</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -84,8 +90,16 @@
         </section>
         
         <hr color="#2A2E36">
+
+        <section class="subHeading">
+            <li><a href="#prerequisites">Prerequisites</a></li>
+            <li><a href="#exam-details">Exam Details</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#outcomes">Outcomes</a></li>
+            <li><a href="#opportunities">Opportunities</a></li>
+        </section>
     
-        <section class="prerequisites">
+        <section id="prerequisites" class="prerequisites">
             <h1>Prerequisites</h1>
             <ul>
                 <li><span>Programming Proficiency</span>: Knowledge of Python, Java, C++ etc for automation and scripting.</li>
@@ -96,9 +110,8 @@
                 <li><span>Web Technologies</span>: Understanding of web technologies, including HTTP/HTTPS protocols, and web servers.</li>
             </ul>
         </section>
-        
     
-        <section class="exam-details">
+        <section id="exam-details" class="exam-details">
             <h1>Exam Details</h1>
             <div class="exam-info">
                 <div class="image-container">
@@ -113,7 +126,7 @@
             </div>
         </section>
     
-        <section class="certification-modules">
+        <section id="modules" class="certification-modules">
             <h3>Certification Modules</h3>
             <div class="modules">
                 <div class="module">
@@ -178,7 +191,7 @@
             </div>
         </section>
     
-        <section class="learning-outcomes">
+        <section id="outcomes" class="learning-outcomes">
             <h3>What will you Learn?</h3>
             <div class="l">
                 <div class="learn-items">
@@ -198,9 +211,8 @@
                 <div><img src="./photos/img1.jpeg" alt="" height="150px" width="150px"></div>
             </div>
         </section>
-        
     
-        <section class="industry-opportunities">
+        <section id="opportunities" class="industry-opportunities">
             <h3>Industry Opportunities after Course Completion</h3>
             <div class="opportunities">
                 <div class="opportunity">
@@ -225,6 +237,10 @@
     <p>© AI CERTs™, Inc. All Rights Reserved.</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js">
+    document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('nav').classList.toggle('active');
+    });
+</script>
 </body>
 </html>
