@@ -611,7 +611,16 @@ footer {
     .opportunity{
         width: auto;
     }
+    .l{
+        gap: 0px;
+    }
     .l img{
         display: none;
+    }
+    .subHeading{
+        justify-content: space-around;
+    }
+    .subHeading li{
+        margin: 0 auto;
     }
 }
